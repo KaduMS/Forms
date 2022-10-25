@@ -3,17 +3,19 @@ body {
   font-size: larger;
 }
 
-.App {
+.mainContainer {
   width: 100vw;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-wrap: nowrap;
 }
 
-.App h1 {
+h1 {
   font-weight: 600;
   font-size: 32px;
+  color: #52575C;
 }
 
 .App label {
